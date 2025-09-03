@@ -28,29 +28,6 @@ A short description (3–4 lines) about what the project does, why it’s import
 | 3. Analysis        | Explain your method (classification, regression, visualization, etc.) |
 | 4. Visualization   | How results are shown (maps, charts, 3D models) |
 
----
-## Python 
-<pre> ```python 
-  import geopandas as gpd 
-  import matplotlib.pyplot as plt 
-  # Load shapefile 
-  data = gpd.read_file("bangladesh.shp") 
-  # Plot 
-  data.plot(edgecolor="black", facecolor="lightblue") 
-  plt.title("Bangladesh Map") plt.show() ``` 
-</pre>
----
-## JavaScript
-<pre> ```javascript 
-  // Google Earth Engine example 
-  var dataset = ee.ImageCollection("COPERNICUS/S2") .filterDate('2024-01-01', '2024-02-01') .filterBounds(ee.Geometry.Point(90.4125, 23.8103)); Map.centerObject(dataset, 8); Map.addLayer(dataset.mean(), {bands:['B4','B3','B2'], min:0, max:3000}, "True Color"); ``` </pre>
----
-###General Rules
-- Use triple backticks ``` before and after code.
-- Add the language name right after the first backticks (python, javascript, r, sql, bash, html, css, etc.).
-- GitHub automatically applies syntax highlighting.
----
-
 ## 📊 Results
 - Add **maps, graphs, or figures** here.  
 - You can include multiple images:
@@ -93,4 +70,91 @@ A short description (3–4 lines) about what the project does, why it’s import
   booktitle={Conference Name},
   year={2024}
 }
+``` text
+# Examples 
 
+Use # to ###### for headings
+# Main Title
+## Section Heading
+### Sub-heading
+
+Text Formatting
+*italic* or _italic_  
+**bold**  
+~~strikethrough~~  
+`inline code`  
+> Blockquote
+
+List
+- GIS
+- Remote Sensing
+- Python
+
+Ordered List
+1. Collect elevation data
+2. Process in ArcGIS
+3. Visualize in Blender
+
+Task List
+- [x] Data collected
+- [ ] Analysis ongoing
+- [ ] Paper writing
+
+Links
+[Google Scholar](https://scholar.google.com/)
+
+Images
+![Alt text](image.png)
+
+Table
+| Tool | Use |
+|------|-----|
+| ArcGIS Pro | Data Processing |
+| Blender | 3D Visualization |
+| Python | Analysis |
+
+For showing code:
+
+<pre> ```python import geopandas as gpd data = gpd.read_file("map.shp") data.plot() ``` </pre>
+
+Badges (Fancy labels)
+
+Use shields.io to add badges.
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![GIS](https://img.shields.io/badge/GIS-ArcGIS-green)
+
+<details>
+<summary>Click to expand full methodology</summary>
+
+1. Data collection  
+2. Data processing  
+3. Visualization  
+
+</details>
+
+Embedding YouTube or External Media
+[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+
+---
+## Python 
+<pre> ```python 
+  import geopandas as gpd 
+  import matplotlib.pyplot as plt 
+  # Load shapefile 
+  data = gpd.read_file("bangladesh.shp") 
+  # Plot 
+  data.plot(edgecolor="black", facecolor="lightblue") 
+  plt.title("Bangladesh Map") plt.show() ``` 
+</pre>
+---
+## JavaScript
+<pre> ```javascript 
+  // Google Earth Engine example 
+  var dataset = ee.ImageCollection("COPERNICUS/S2") .filterDate('2024-01-01', '2024-02-01') .filterBounds(ee.Geometry.Point(90.4125, 23.8103)); Map.centerObject(dataset, 8); Map.addLayer(dataset.mean(), {bands:['B4','B3','B2'], min:0, max:3000}, "True Color"); ``` </pre>
+---
+###General Rules
+- Use triple backticks ``` before and after code.
+- Add the language name right after the first backticks (python, javascript, r, sql, bash, html, css, etc.).
+- GitHub automatically applies syntax highlighting.
+---
+```
