@@ -23,6 +23,11 @@ Here's the building footprint map of Eixample, Barcelona, developed using Geospa
 
 ![1](https://framerusercontent.com/images/OLe7C6B0oP27TJK2aMWoEVIOucs.png?scale-down-to=1024&width=5000&height=5000)  
 ![2](https://framerusercontent.com/images/ESi7fZd6DE7eKi0nQByeGiXRs6s.png?scale-down-to=1024&width=5000&height=5000)  
+This map has been a long-time inspiration for me, sparked by Milan Janosov's incredible post showcasing the same visualization. As an editor and designer at that time, I was captivated by the way a data scientist perceives and represents urban structures. That perspective motivated me to take my first steps into the world of geospatial Python.
+
+Today, I’ve recreated the map that inspired me—and this is just the beginning of my journey into geospatial data science. There’s so much more to learn and explore!
+
+Here’s to combining design thinking with geospatial analysis and uncovering new ways to understand our world. 🌟
 
 ---
 
@@ -33,3 +38,4 @@ Here's the building footprint map of Eixample, Barcelona, developed using Geospa
 
 ## 🔖 Tags
 `GIS` `Geospatial Python`
+
