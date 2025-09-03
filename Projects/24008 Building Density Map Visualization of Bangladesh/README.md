@@ -8,6 +8,7 @@
 
 ## 📝 Overview
 Excited to kick off this challenge with a map highlighting the density of buildings across Bangladesh, complete with a glowing aesthetic! This visualization, created using ArcGIS Pro and Blender, brings out the density patterns beautifully. A big shoutout to Map Your World for the amazing Blender tutorial that inspired the look and feel of this piece.
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -36,3 +37,4 @@ Excited to kick off this challenge with a map highlighting the density of buildi
 
 ## 🔖 Tags
 `GIS` `Blender` 
+
