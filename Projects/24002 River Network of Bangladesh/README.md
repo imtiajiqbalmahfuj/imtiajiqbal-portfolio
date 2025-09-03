@@ -2,6 +2,8 @@
 
 ![Banner or Demo Image](https://framerusercontent.com/images/tsXW0dLGZRYW0G7D9oib6xEU1Po.png?width=940&height=928)  
 
+![Date](https://img.shields.io/badge/01/10/2024-01/10/2024-blue) 
+![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 
 ## 📝 Overview
@@ -33,3 +35,4 @@ A big thanks to Tabib for his invaluable help in making this vision a reality. &
 
 ## 🔖 Tags
 `GIS` `RemoteSensing` `ArcGIS`
+
