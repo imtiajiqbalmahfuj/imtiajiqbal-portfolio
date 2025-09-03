@@ -2,7 +2,7 @@
 
 ![Image](https://framerusercontent.com/images/dFvSFFYBNJrnAe7ub5oGsj14ns.png?width=939&height=942)  
 
-![Date](https://img.shields.io/badge/01/10/2024-01/10/2024-blue) 
+![Date](https://img.shields.io/badge/10/12/2024-10/12/2024-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 
@@ -41,4 +41,5 @@ This analysis underscores the urgent need for sustainable urban planning and con
 ## 🔖 Tags
 `GIS` `ML` 
   
+
 
