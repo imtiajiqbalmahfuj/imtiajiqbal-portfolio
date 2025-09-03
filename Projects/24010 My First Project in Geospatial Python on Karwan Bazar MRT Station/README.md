@@ -19,7 +19,7 @@ I’m beyond excited to share my very first project using geospatial Python! It�
 ## 📊 Results
 
 ![1](https://framerusercontent.com/images/nIMcqPxOxc3v6jm7xE60DrTyh8.jpg?scale-down-to=2048&width=3600&height=3600)  
-![1]((https://framerusercontent.com/images/KRuVwXZQkwkID56qrBQhOFnAU.jpg?scale-down-to=1024&width=3600&height=3600))  
+![1](https://framerusercontent.com/images/KRuVwXZQkwkID56qrBQhOFnAU.jpg?scale-down-to=1024&width=3600&height=3600)  
 
 I dedicate this project to Rafi Mahmud vai. Thank you, Vai, for your invaluable guidance and support. Your help has been like a beacon through this learning path, helping me overcome every obstacle. This project marks the beginning of my geospatial data science journey, and I can’t wait to see where it leads!
 
@@ -32,4 +32,5 @@ I dedicate this project to Rafi Mahmud vai. Thank you, Vai, for your invaluable 
 
 ## 🔖 Tags
 `GIS` `Geospatial Python`  
+
 
