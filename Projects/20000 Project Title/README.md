@@ -40,15 +40,8 @@
 ---
 
 ## 📎 Links
-- 🔗 [Dataset](https://example-dataset-link.com)  
-- 📄 [Publication / Conference Paper](https://doi.org/example)  
-
----
-
-## 🏆 Achievements
-- ✅ Presented at *ICERIE 2024*  
-- 🏅 Shortlisted in *BIP World Town Planning Day Competition*  
-- 📌 Featured in *XYZ Research Journal*  
+- 🔗 [See more]()  
+- 📄 [Publication / Conference Paper](https://doi.org/example)
 
 ---
 
@@ -304,4 +297,5 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
