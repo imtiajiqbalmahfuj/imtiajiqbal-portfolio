@@ -8,6 +8,7 @@
 
 ## 📝 Overview
 🌍 Land Use Land Cover (LULC) Map of Dhaka (2024), created using Landsat 8 OLI/TIRS data and classified with the Support Vector Machine (SVM) method in ArcGIS Pro. 
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -40,3 +41,4 @@ This analysis underscores the urgent need for sustainable urban planning and con
 ## 🔖 Tags
 `GIS` `ML` 
   
+
