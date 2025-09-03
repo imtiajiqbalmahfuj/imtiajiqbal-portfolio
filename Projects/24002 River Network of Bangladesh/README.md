@@ -14,6 +14,7 @@ I’m excited to share a detailed map of the river network of Bangladesh that I 
 This project has been a labor of love, aimed at highlighting the intricate and vital river systems that shape our country’s landscape. 
 
 A big thanks to Tabib for his invaluable help in making this vision a reality. & Thank you Ali Abdallah for the tutorial.
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -35,4 +36,5 @@ A big thanks to Tabib for his invaluable help in making this vision a reality. &
 
 ## 🔖 Tags
 `GIS` `RemoteSensing` `ArcGIS`
+
 
