@@ -5,6 +5,8 @@
 ![Banner or Demo Image](demo.png)  
 *(Optional: Add a GIF or a screenshot of results)*  
 
+![Date](https://img.shields.io/badge/01/10/2024-01/10/2024-blue) 
+![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 
 ## 📝 Overview
@@ -83,6 +85,8 @@ A short description (3–4 lines) about what the project does, why it’s import
 ![Banner or Demo Image](demo.png)  
 *(Optional: Add a GIF or a screenshot of results)*  
 
+![Date](https://img.shields.io/badge/01/10/2024-01/10/2024-blue) 
+![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 
 ## 📝 Overview
@@ -240,5 +244,6 @@ Embedding YouTube or External Media
 - GitHub automatically applies syntax highlighting.
 ---
 ```
+
 
 
