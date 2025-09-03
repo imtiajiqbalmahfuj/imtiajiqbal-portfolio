@@ -29,6 +29,27 @@ A short description (3–4 lines) about what the project does, why it’s import
 | 4. Visualization   | How results are shown (maps, charts, 3D models) |
 
 ---
+## Python 
+<pre> ```python 
+  import geopandas as gpd 
+  import matplotlib.pyplot as plt 
+  # Load shapefile 
+  data = gpd.read_file("bangladesh.shp") 
+  # Plot 
+  data.plot(edgecolor="black", facecolor="lightblue") 
+  plt.title("Bangladesh Map") plt.show() ``` 
+</pre>
+---
+## JavaScript
+<pre> ```javascript 
+  // Google Earth Engine example 
+  var dataset = ee.ImageCollection("COPERNICUS/S2") .filterDate('2024-01-01', '2024-02-01') .filterBounds(ee.Geometry.Point(90.4125, 23.8103)); Map.centerObject(dataset, 8); Map.addLayer(dataset.mean(), {bands:['B4','B3','B2'], min:0, max:3000}, "True Color"); ``` </pre>
+---
+###General Rules
+- Use triple backticks ``` before and after code.
+- Add the language name right after the first backticks (python, javascript, r, sql, bash, html, css, etc.).
+- GitHub automatically applies syntax highlighting.
+---
 
 ## 📊 Results
 - Add **maps, graphs, or figures** here.  
@@ -72,3 +93,4 @@ A short description (3–4 lines) about what the project does, why it’s import
   booktitle={Conference Name},
   year={2024}
 }
+
