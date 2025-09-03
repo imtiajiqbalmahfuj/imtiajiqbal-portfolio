@@ -26,7 +26,7 @@ This exploration could be pivotal in setting benchmarks for future transit-integ
 
 ## 📊 Results
 
-![1](https://framerusercontent.com/images/efVjdGzv7ACoKjHDlDr7s4adk.png?width=778&height=921)  
+![1](https://framerusercontent.com/images/efVjdGzv7ACoKjHDlDr7s4adk.png?width=778&height=921) 
 
 ---
 
@@ -37,3 +37,4 @@ This exploration could be pivotal in setting benchmarks for future transit-integ
 
 ## 🔖 Tags
 `GIS`
+
