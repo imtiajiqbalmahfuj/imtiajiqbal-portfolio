@@ -1,13 +1,3 @@
-```python 
-  import geopandas as gpd 
-  import matplotlib.pyplot as plt 
-  # Load shapefile 
-  data = gpd.read_file("bangladesh.shp") 
-  # Plot 
-  data.plot(edgecolor="black", facecolor="lightblue") 
-  plt.title("Bangladesh Map") plt.show()
-```
-
 ``` text
 # 🌍 Project Title Here
 ### Subtitle / One-liner about the project  
@@ -250,4 +240,5 @@ Embedding YouTube or External Media
 - GitHub automatically applies syntax highlighting.
 ---
 ```
+
 
