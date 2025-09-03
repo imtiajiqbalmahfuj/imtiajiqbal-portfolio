@@ -12,6 +12,7 @@ I recently created a 3D elevation map to showcase the elevation patterns across 
 The map reveals that most areas of the country are flat with low elevation levels, while the southern and northern corners exhibit more elevated terrain.
 
 In the visualization, red shades denote elevated surfaces, and green shades indicate lower areas, providing a clear and intuitive view of the topography. The elevation data was sourced from NASA - National Aeronautics and Space Administration, ensuring precise and accurate mapping. A special shoutout to John Nelson for his fantastic tutorial, which made this project possible.
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -32,3 +33,4 @@ In the visualization, red shades denote elevated surfaces, and green shades indi
 
 ## 🔖 Tags
 `GIS`
+
