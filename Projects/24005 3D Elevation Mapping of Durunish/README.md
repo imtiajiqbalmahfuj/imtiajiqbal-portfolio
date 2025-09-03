@@ -1,6 +1,6 @@
 # 3D Elevation Mapping of Durunish  
 
-![Image]()  
+![Image](https://framerusercontent.com/images/hIWc1ZFDPE5ngebpSFCWMuICEeg.jpg?scale-down-to=2048&width=2400&height=3000)  
 
 ![Date](https://img.shields.io/badge/10/11/2024-10/11/2024-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
@@ -35,3 +35,4 @@ A big shoutout to GeoDelta Labs for his excellent tutorial that guided me throug
 
 ## 🔖 Tags
 `GIS` `RemoteSensing`  
+
