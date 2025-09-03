@@ -47,7 +47,7 @@
 ---
 
 ## 🔖 Tags
-`GIS` `RemoteSensing` `Geospatial Python` `Python` `GEE` `DataScience`  
+`GIS` `Remote Sensing` `Geospatial Python` `Python` `GEE` `Spatial Data-Science`  
 
 ```
 
@@ -298,6 +298,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
