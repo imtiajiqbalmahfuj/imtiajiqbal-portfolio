@@ -1,6 +1,9 @@
 # An Imaginary Subdivision Layout Plan for A Sustainable 30-Acre Neighborhood
 
 ![Banner or Demo Image](https://framerusercontent.com/images/3KeH4PY9JcAqsoyBAgLFcEJRw0.jpeg?width=600&height=480)  
+
+![Date](https://img.shields.io/badge/01/08/2024-01/08/2024-blue) 
+![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 ![Pic](https://framerusercontent.com/images/ny932z8dOz27eIyRW2CSafHf8.jpeg?width=582&height=600)
 ---
@@ -9,5 +12,6 @@
 
 ## 🔖 Tags
 `Cartography` `Mapping` `Subdivision Plan`
+
 
 
