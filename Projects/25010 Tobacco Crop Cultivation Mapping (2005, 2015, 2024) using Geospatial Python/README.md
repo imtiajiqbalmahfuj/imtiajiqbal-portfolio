@@ -12,7 +12,7 @@ Just wrapped up an impactful geospatial project using geospatial Python & Google
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)  
 ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-GEE-red)
@@ -60,3 +60,4 @@ This project showcases my expertise in satellite imagery analysis, remote sensin
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` `GEE` `Spatial Data-Science`  
+
