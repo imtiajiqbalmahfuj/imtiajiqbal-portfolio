@@ -15,7 +15,7 @@ A detailed map of the rivers of Asia, created using Geospatial Python, with key 
 
 ## 🛠️ Tools & Technologies
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial%20Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Geospatial](https://img.shields.io/badge/Geospatial-Data%20Science-lightgrey)  
 
@@ -56,3 +56,4 @@ Asia, home to some of the world’s largest river systems, plays a pivotal role 
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` `Python` `GEE` `DataScience`  
+
