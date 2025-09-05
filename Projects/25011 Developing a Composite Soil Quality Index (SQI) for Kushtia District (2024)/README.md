@@ -5,6 +5,7 @@
 ![Date](https://img.shields.io/badge/22/08/2025-22/08/2025-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
+> **Associates:** Nawreen Ferdous Tamim, Nadia Sultana, Md. Jehan Rahman
 
 ## 📝 Overview
 I am glad to share the successful completion of my project on the Soil Quality Index (SQI) mapping of Kushtia District for 2024, which integrates multiple soil health parameters into a single, interpretable index to assess the spatial variability of soil quality.
@@ -92,3 +93,4 @@ SQI=(0.10×"Norm_Vol_water_content")+(0.20×"Norm_Soil_organic_carbon")+(0.06×"
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` 
+
