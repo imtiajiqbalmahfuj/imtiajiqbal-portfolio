@@ -68,6 +68,7 @@ A short description (3–4 lines) about what the project does, why it’s import
 ---
 
 ## 🛠️ Tools & Technologies
+![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)
 ![Python](https://img.shields.io/badge/Python-3.9-blue) 
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)  
@@ -297,6 +298,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
