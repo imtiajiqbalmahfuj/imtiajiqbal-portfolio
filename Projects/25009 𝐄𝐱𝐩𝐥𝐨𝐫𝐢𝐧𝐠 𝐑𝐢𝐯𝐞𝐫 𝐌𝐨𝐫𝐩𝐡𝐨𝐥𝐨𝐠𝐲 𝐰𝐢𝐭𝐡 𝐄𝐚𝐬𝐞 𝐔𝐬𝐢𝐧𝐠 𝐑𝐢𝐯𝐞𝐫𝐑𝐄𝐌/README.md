@@ -12,7 +12,7 @@ I recently created this amazing 𝐑𝐞𝐥𝐚𝐭𝐢𝐯𝐞 𝐄𝐥𝐞�
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 
 ---
@@ -37,4 +37,5 @@ Big thanks to Kenneth Larrieu for developing this incredibly handy geospatial to
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` 
+
 
