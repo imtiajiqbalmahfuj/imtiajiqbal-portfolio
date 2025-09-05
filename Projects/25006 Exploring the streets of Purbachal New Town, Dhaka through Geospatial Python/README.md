@@ -1,5 +1,5 @@
 # Exploring the streets of Purbachal New Town, Dhaka through Geospatial Python
-![Image]()  
+![Image](https://framerusercontent.com/images/SEBX76Cwgyt2DfSCLWiVm4Ym6o.jpg?scale-down-to=2048&width=2581&height=2433)  
 
 ![Date](https://img.shields.io/badge/28/04/2025-28/04/2025-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
@@ -13,7 +13,7 @@ The map distinguishes between 𝐫𝐞𝐬𝐢𝐝𝐞𝐧𝐭𝐢𝐚𝐥, 𝐬
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Geospatial](https://img.shields.io/badge/Geospatial-Data%20Science-lightgrey)  
 
@@ -35,3 +35,4 @@ Special thanks to Emmanuel Yerbo for sharing the coding framework and inspiring 
 
 ## 🔖 Tags
 `GIS` `Geospatial Python` `Spatial Data-Science`  
+
