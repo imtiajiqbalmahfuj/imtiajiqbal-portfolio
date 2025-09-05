@@ -18,7 +18,7 @@ The map was developed using Python libraries including 𝐎𝐒𝐌𝐧𝐱, �
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Geospatial](https://img.shields.io/badge/Geospatial-Data%20Science-lightgrey)  
 
@@ -35,3 +35,4 @@ The map was developed using Python libraries including 𝐎𝐒𝐌𝐧𝐱, �
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` `Spatial Data-Science`  
+
