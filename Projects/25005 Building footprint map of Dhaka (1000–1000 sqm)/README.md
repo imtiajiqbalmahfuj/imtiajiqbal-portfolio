@@ -12,7 +12,7 @@ Amidst a hectic schedule, I carved out a little time to create this building foo
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 
 ---
@@ -31,3 +31,4 @@ A big shoutout to Emmanuel Yerbo for guiding me through the code and helping bri
 
 ## 🔖 Tags
 `GIS` `Geospatial Python` `Python`
+
