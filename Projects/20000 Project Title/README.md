@@ -14,7 +14,7 @@
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)  
 ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-GEE-red)
@@ -298,6 +298,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
