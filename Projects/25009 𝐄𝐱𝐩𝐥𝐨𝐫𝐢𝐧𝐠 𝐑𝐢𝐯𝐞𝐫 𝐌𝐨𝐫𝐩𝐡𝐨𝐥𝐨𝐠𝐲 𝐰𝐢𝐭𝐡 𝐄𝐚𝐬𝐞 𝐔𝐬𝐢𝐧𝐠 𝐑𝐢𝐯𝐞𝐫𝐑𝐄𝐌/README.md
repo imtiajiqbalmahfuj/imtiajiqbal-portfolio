@@ -17,7 +17,7 @@ I recently created this amazing 𝐑𝐞𝐥𝐚𝐭𝐢𝐯𝐞 𝐄𝐥𝐞�
 
 ---
 
-What makes riverrem truly stand out:
+What makes Riverrem truly stand out:
 - Automatically extracts river centerlines via OpenStreetMap API
 - Smart sampling that adapts to local river sinuosity
 - Pixel-level interpolation accuracy for smooth and precise elevation mapping
@@ -37,3 +37,4 @@ Big thanks to Kenneth Larrieu for developing this incredibly handy geospatial to
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` 
+
