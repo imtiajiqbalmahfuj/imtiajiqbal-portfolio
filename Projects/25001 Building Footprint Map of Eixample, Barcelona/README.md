@@ -14,7 +14,7 @@ Here's the building footprint map of Eixample, Barcelona, developed using Geospa
 ---
 
 ## 🛠️ Tools & Technologies
-![GeoPy](https://img.shields.io/badge/Geospatial%Python-red)  
+![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
 
 ---
@@ -38,4 +38,5 @@ Here’s to combining design thinking with geospatial analysis and uncovering ne
 
 ## 🔖 Tags
 `GIS` `Geospatial Python`
+
 
