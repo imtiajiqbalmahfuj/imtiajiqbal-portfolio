@@ -5,8 +5,8 @@
 ![Date](https://img.shields.io/badge/22/07/2025-22/07/2025-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
-` **Associates:** Nawreen Ferdous Tamim, Nadia Sultana, Md. Jehan Rahman `
 > **Associates:** Nawreen Ferdous Tamim, Nadia Sultana, Md. Jehan Rahman
+
 ## 📝 Overview
 Just wrapped up an impactful geospatial project using geospatial Python & Google Earth Engine (GEE) 🛰️
 
@@ -61,5 +61,6 @@ This project showcases my expertise in satellite imagery analysis, remote sensin
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` `GEE` `Spatial Data-Science`  
+
 
 
