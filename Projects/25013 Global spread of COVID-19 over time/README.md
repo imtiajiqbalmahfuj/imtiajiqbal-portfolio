@@ -46,6 +46,7 @@ This dataset contains daily cumulative confirmed case counts per country.
 ## 📊 Results
 
 ![1](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/COVID_Map_6_15_20.png)  
+![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/4%20country%20comparison.png)  
 ![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/Dynamic%20COVID%2019%20Map%20small.gif)  
 
 ---
