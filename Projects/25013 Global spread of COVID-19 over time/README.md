@@ -3,7 +3,7 @@
 
 ![Image](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/Dynamic%20COVID%2019%20Map%20small.gif)  
 
-![Date](https://img.shields.io/badge/01/10/2025-01/10/2025-blue) 
+![Date](https://img.shields.io/badge/16/09/2025-17/09/2025-blue) 
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
 ---
 
@@ -51,7 +51,7 @@ This dataset contains daily cumulative confirmed case counts per country.
 ---
 
 ## 📎 Links
-- 🔗 [See more]()  
+- 🔗 [See more](https://www.linkedin.com/posts/imtiajiqbalmahfuj_johnsabrhopkins-activity-7373465359313649666-vE4t?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETCC3UBjMNBwycvXEm57I2FBEXCxvdKcM0)  
 
 ---
 
