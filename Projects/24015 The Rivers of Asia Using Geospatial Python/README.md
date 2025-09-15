@@ -1,5 +1,5 @@
 # The Rivers of Asia Using Geospatial Python 
-![CO]([https://img.shields.io/badge/Location-Rajshahi-green](https://colab.research.google.com/github/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/24015%20The%20Rivers%20of%20Asia%20Using%20Geospatial%20Python/Rivers%20of%20Asia.ipynb)) 
+![CO]([https://img.shields.io/badge/Location-Rajshahi-green](https://colab.research.google.com/github/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/24015%20The%20Rivers%20of%20Asia%20Using%20Geospatial%20Python/Rivers%20of%20Asia.ipynb) 
 ![Image](https://framerusercontent.com/images/vJKEs5iNPNDKHzRYx8i1tONM.png?width=1173&height=898)  
 
 ![Date](https://img.shields.io/badge/27/12/2024-27/12/2024-blue) 
@@ -56,6 +56,7 @@ Asia, home to some of the world’s largest river systems, plays a pivotal role 
 
 ## 🔖 Tags
 `GIS` `Remote Sensing` `Geospatial Python` `Python` `GEE` `DataScience`  
+
 
 
 
