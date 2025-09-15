@@ -65,6 +65,7 @@ This dataset contains daily cumulative confirmed case counts per country.
 
 ```bash
 python covid_animation.py
+```
 
 ## 🔖 Tags
 `Geospatial Python` `Python`
