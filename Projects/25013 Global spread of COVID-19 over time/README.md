@@ -1,5 +1,6 @@
 # 🌍 COVID-19 Daily Positive Cases Animation 
 
+
 ![Image]()  
 
 ![Date](https://img.shields.io/badge/01/10/2025-01/10/2025-blue) 
@@ -11,49 +12,11 @@ This project visualizes the global spread of COVID-19 over time by creating an *
 
 ---  
 
----
-
 ## 🛠️ Tools & Technologies
 ![GeoPy](https://img.shields.io/badge/Geospatial-Python-red)  
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS-green) 
-![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)  
-![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-GEE-red)
-![Geospatial](https://img.shields.io/badge/Geospatial-Data%20Science-lightgrey)  
 
 ---
-
-## ⚙️ Methodology
-| Step | Description |
-|------|-------------|
-| 1. Data Collection | Describe dataset (e.g., Landsat, Sentinel, NASA DEM) |
-| 2. Preprocessing   | Tools used (e.g., ArcGIS Pro, QGIS, Python libraries) |
-| 3. Analysis        | Explain your method (classification, regression, visualization, etc.) |
-| 4. Visualization   | How results are shown (maps, charts, 3D models) |
-
----
-
-## 📊 Results
-
-![1]()  
-![2]()  
-
----
-
-## 📎 Links
-- 🔗 [See more]()  
-- 📄 [Publication / Conference Paper](https://doi.org/example)
-
----
-
-## 🔖 Tags
-`GIS` `Remote Sensing` `Geospatial Python` `Python` `GEE` `Spatial Data-Science`  
-
-
-
-
-
-
-
 ## 📂 Dataset
 **Source:** [Johns Hopkins University CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19)  
 File used: `time_series_covid19_confirmed_global.csv`
@@ -80,17 +43,33 @@ This dataset contains daily cumulative confirmed case counts per country.
 
 ---
 
-## 📸 Preview
-![Animated Map Preview](demo.gif)  
-*(Example of the output animation)*
+## 📊 Results
+
+![1](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/COVID_Map_6_15_20.png)  
+![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/Dynamic%20COVID%2019%20Map.gif?raw=true)  
 
 ---
+
+## 📎 Links
+- 🔗 [See more]()  
+
+---
+
 
 ## 🏁 How to Run
 1. Clone this repository  
 2. Place `time_series_covid19_confirmed_global.csv` inside the project folder  
 3. Run the main Python script:
 
+---
+
 ```bash
 python covid_animation.py
+
+## 🔖 Tags
+`Geospatial Python` `Python`
+
+
+
+
 
