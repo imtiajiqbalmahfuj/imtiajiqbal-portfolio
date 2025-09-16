@@ -61,7 +61,7 @@ fig = ax.get_figure()
 fig.savefig("4 country comparison.png", dpi=300, bbox_inches='tight')
 
 ```
-![1](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/COVID_Map_6_15_20.png)  
+![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/4%20country%20comparison.png)  
 Import World shapefile
 
 ``` python
@@ -127,7 +127,7 @@ ax.get_legend().set_bbox_to_anchor((0.18, 0.6))
 fig = ax.get_figure()
 fig.savefig("COVID_Map_6_15_20.png", dpi=300, bbox_inches='tight')
 ```
-![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/4%20country%20comparison.png)  
+![1](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25013%20Global%20spread%20of%20COVID-19%20over%20time/COVID_Map_6_15_20.png)  
 Plot and save gif
 ``` python
 # empty list
