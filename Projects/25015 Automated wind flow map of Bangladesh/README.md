@@ -1,7 +1,7 @@
 # Automated Wind Flow Visualization Over Bangladesh Using **Python**
 ### Automating extraction, analysis, and animation of 10m wind components (u10 & v10) over Bangladesh  
 
-![Bangladesh Wind Map](link-to-your-gif-or-screenshot)  
+![Bangladesh Wind Map](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/25015%20Automated%20wind%20flow%20map%20of%20Bangladesh/Bangladesh_Wind_Streamlines_small.gif?raw=true)  
 
 ![Date](https://img.shields.io/badge/17/09/2025-18/09/2025-blue) 
 ![Location](https://img.shields.io/badge/Location-Bangladesh-green) 
@@ -225,13 +225,14 @@ anim.save(output_path, writer="pillow", dpi=900)
 print("✅ Wind streamline animation saved as GIF.")
 plt.show()
 ```
-![2]()  
+![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25015%20Automated%20wind%20flow%20map%20of%20Bangladesh/Bangladesh_Wind_Streamlines-0000.jpg)
+![2](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/25015%20Automated%20wind%20flow%20map%20of%20Bangladesh/Bangladesh_Wind_Streamlines_small.gif?raw=true)  
 
 
 ---
 
 ## 📎 Links
-- 🔗 [See more]()  
+- 🔗 [See more](https://www.linkedin.com/posts/imtiajiqbalmahfuj_era5abr10m-xarray-netcdf4-activity-7374184762648875010-rTvb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETCC3UBjMNBwycvXEm57I2FBEXCxvdKcM0)  
 
 ---
 
