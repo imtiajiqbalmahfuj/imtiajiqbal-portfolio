@@ -1,6 +1,6 @@
 # Project: Visualizing the World's Forests with Python
 
-![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/Global%20forest%20map/Global%20forest%20map.png)
+![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25017%20Global%20forest%20map/Global%20forest%20map.png)
 
 ---
 🌳 **Can you locate the Amazon rainforest on this map?** 
@@ -60,9 +60,9 @@ While this dataset is older, the methods are fully applicable to newer or higher
 - Small forest patches, rivers, and deltas (e.g., Nile) are distinguishable with alternative colormaps.  
 - The Robinson projection provides a realistic and aesthetically pleasing global view.
 
-![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/Global%20forest%20map/Global%20forest%20map.png)
+![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25017%20Global%20forest%20map/Global%20forest%20map.png)
 
-![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/Global%20forest%20map/Global%20forest%20map%20gnuplot.png)
+![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25017%20Global%20forest%20map/Global%20forest%20map%20gnuplot.png)
 
 ---
 
