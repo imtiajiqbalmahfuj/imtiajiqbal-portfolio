@@ -55,7 +55,7 @@ Even Bangladesh appears on the map, proudly showing its single billionaire.
 ---
 
 ## 📎 Links
-- 📄 [LinkedIn]()
+- 📄 [LinkedIn](https://www.linkedin.com/posts/imtiajiqbalmahfuj_billionairesmap-activity-7377438313575567360-oxpO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETCC3UBjMNBwycvXEm57I2FBEXCxvdKcM0)
 - 🔗 [Data Source — Forbes 2024](https://www.forbes.com/billionaires/)  
 
 ---
