@@ -1,0 +1,594 @@
+[
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "Billionaires_2024": 813,
+    "BillionairesRate_2024": 2.42,
+    "BillionairesRichestBillionaire_2024": "Elon Musk",
+    "BillionairesRichestNetWorth_2024": 195
+  },
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "Billionaires_2024": 406,
+    "BillionairesRate_2024": 0.288,
+    "BillionairesRichestBillionaire_2024": "Zhong Shanshan",
+    "BillionairesRichestNetWorth_2024": 62.3
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "Billionaires_2024": 200,
+    "BillionairesRate_2024": 0.144,
+    "BillionairesRichestBillionaire_2024": "Mukesh Ambani",
+    "BillionairesRichestNetWorth_2024": 116
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "Billionaires_2024": 132,
+    "BillionairesRate_2024": 1.56,
+    "BillionairesRichestBillionaire_2024": "Klaus-Michael Kuehne",
+    "BillionairesRichestNetWorth_2024": 39.2
+  },
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "Billionaires_2024": 120,
+    "BillionairesRate_2024": 0.821,
+    "BillionairesRichestBillionaire_2024": "Vagit Alekperov",
+    "BillionairesRichestNetWorth_2024": 28.6
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "Billionaires_2024": 73,
+    "BillionairesRate_2024": 1.239,
+    "BillionairesRichestBillionaire_2024": "Giovanni Ferrero",
+    "BillionairesRichestNetWorth_2024": 43.8
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "Billionaires_2024": 69,
+    "BillionairesRate_2024": 0.34,
+    "BillionairesRichestBillionaire_2024": "Eduardo Saverin",
+    "BillionairesRichestNetWorth_2024": 28
+  },
+  {
+    "flagCode": "CA",
+    "country": "Canada",
+    "Billionaires_2024": 67,
+    "BillionairesRate_2024": 1.643,
+    "BillionairesRichestBillionaire_2024": "David Thomson & family",
+    "BillionairesRichestNetWorth_2024": 67.8
+  },
+  {
+    "flagCode": "HK",
+    "country": "Hong Kong",
+    "Billionaires_2024": 67,
+    "BillionairesRate_2024": 8.936,
+    "BillionairesRichestBillionaire_2024": "Li Ka-shing",
+    "BillionairesRichestNetWorth_2024": 37.3
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "Billionaires_2024": 55,
+    "BillionairesRate_2024": 0.814,
+    "BillionairesRichestBillionaire_2024": "Michael Platt",
+    "BillionairesRichestNetWorth_2024": 18
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "Billionaires_2024": 53,
+    "BillionairesRate_2024": 0.775,
+    "BillionairesRichestBillionaire_2024": "Bernard Arnault & family",
+    "BillionairesRichestNetWorth_2024": 233
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "Billionaires_2024": 51,
+    "BillionairesRate_2024": 2.178,
+    "BillionairesRichestBillionaire_2024": "Barry Lam",
+    "BillionairesRichestNetWorth_2024": 11
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "Billionaires_2024": 48,
+    "BillionairesRate_2024": 1.79,
+    "BillionairesRichestBillionaire_2024": "Gina Rinehart",
+    "BillionairesRichestNetWorth_2024": 30.8
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "Billionaires_2024": 43,
+    "BillionairesRate_2024": 4.075,
+    "BillionairesRichestBillionaire_2024": "Stefan Persson",
+    "BillionairesRichestNetWorth_2024": 16.6
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "Billionaires_2024": 41,
+    "BillionairesRate_2024": 0.331,
+    "BillionairesRichestBillionaire_2024": "Tadashi Yanai & family",
+    "BillionairesRichestNetWorth_2024": 42.8
+  },
+  {
+    "flagCode": "CH",
+    "country": "Switzerland",
+    "Billionaires_2024": 41,
+    "BillionairesRate_2024": 4.591,
+    "BillionairesRichestBillionaire_2024": "Gianluigi Aponte",
+    "BillionairesRichestNetWorth_2024": 33.1
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "Billionaires_2024": 39,
+    "BillionairesRate_2024": 6.591,
+    "BillionairesRichestBillionaire_2024": "Li Xiting",
+    "BillionairesRichestNetWorth_2024": 15.1
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "Billionaires_2024": 36,
+    "BillionairesRate_2024": 0.702,
+    "BillionairesRichestBillionaire_2024": "Jay Y. Lee",
+    "BillionairesRichestNetWorth_2024": 11.5
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "Billionaires_2024": 36,
+    "BillionairesRate_2024": 3.649,
+    "BillionairesRichestBillionaire_2024": "Eyal Ofer",
+    "BillionairesRichestNetWorth_2024": 24
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "Billionaires_2024": 35,
+    "BillionairesRate_2024": 0.125,
+    "BillionairesRichestBillionaire_2024": "Prajogo Pangestu",
+    "BillionairesRichestNetWorth_2024": 43.4
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "Billionaires_2024": 29,
+    "BillionairesRate_2024": 0.597,
+    "BillionairesRichestBillionaire_2024": "Amancio Ortega",
+    "BillionairesRichestNetWorth_2024": 103
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "Billionaires_2024": 27,
+    "BillionairesRate_2024": 0.316,
+    "BillionairesRichestBillionaire_2024": "Murat Ulker",
+    "BillionairesRichestNetWorth_2024": 5.1
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "Billionaires_2024": 26,
+    "BillionairesRate_2024": 0.381,
+    "BillionairesRichestBillionaire_2024": "Dhanin Chearavanont",
+    "BillionairesRichestNetWorth_2024": 12.5
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "Billionaires_2024": 22,
+    "BillionairesRate_2024": 0.17,
+    "BillionairesRichestBillionaire_2024": "Carlos Slim Helu & family",
+    "BillionairesRichestNetWorth_2024": 102
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "Billionaires_2024": 17,
+    "BillionairesRate_2024": 0.509,
+    "BillionairesRichestBillionaire_2024": "Robert Kuok",
+    "BillionairesRichestNetWorth_2024": 11.4
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "Billionaires_2024": 16,
+    "BillionairesRate_2024": 0.142,
+    "BillionairesRichestBillionaire_2024": "Manuel Villar",
+    "BillionairesRichestNetWorth_2024": 11
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "Billionaires_2024": 14,
+    "BillionairesRate_2024": 0.78,
+    "BillionairesRichestBillionaire_2024": "Charlene de Carvalho-Heineken & family",
+    "BillionairesRichestNetWorth_2024": 14.1
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "Billionaires_2024": 12,
+    "BillionairesRate_2024": 2.162,
+    "BillionairesRichestBillionaire_2024": "Ivar Tollefsen",
+    "BillionairesRichestNetWorth_2024": 8.3
+  },
+  {
+    "flagCode": "CZ",
+    "country": "Czech Republic",
+    "Billionaires_2024": 11,
+    "BillionairesRate_2024": 1.011,
+    "BillionairesRichestBillionaire_2024": "Renata Kellnerova & family",
+    "BillionairesRichestNetWorth_2024": 18
+  },
+  {
+    "flagCode": "IE",
+    "country": "Ireland",
+    "Billionaires_2024": 11,
+    "BillionairesRate_2024": 2.083,
+    "BillionairesRichestBillionaire_2024": "Shapoor Mistry",
+    "BillionairesRichestNetWorth_2024": 9.9
+  },
+  {
+    "flagCode": "BE",
+    "country": "Belgium",
+    "Billionaires_2024": 10,
+    "BillionairesRate_2024": 0.847,
+    "BillionairesRichestBillionaire_2024": "Eric Wittouck",
+    "BillionairesRichestNetWorth_2024": 8.5
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "Billionaires_2024": 10,
+    "BillionairesRate_2024": 0.96,
+    "BillionairesRichestBillionaire_2024": "Maria Angelicoussis",
+    "BillionairesRichestNetWorth_2024": 6.4
+  },
+  {
+    "flagCode": "CY",
+    "country": "Cyprus",
+    "Billionaires_2024": 10,
+    "BillionairesRate_2024": 10.892,
+    "BillionairesRichestBillionaire_2024": "Vinod Adani",
+    "BillionairesRichestNetWorth_2024": 23
+  },
+  {
+    "flagCode": "AT",
+    "country": "Austria",
+    "Billionaires_2024": 9,
+    "BillionairesRate_2024": 0.983,
+    "BillionairesRichestBillionaire_2024": "Mark Mateschitz",
+    "BillionairesRichestNetWorth_2024": 39.6
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "Billionaires_2024": 9,
+    "BillionairesRate_2024": 1.51,
+    "BillionairesRichestBillionaire_2024": "Anders Holch Povlsen",
+    "BillionairesRichestNetWorth_2024": 12.5
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "Billionaires_2024": 8,
+    "BillionairesRate_2024": 0.213,
+    "BillionairesRichestBillionaire_2024": "Michal Solowow",
+    "BillionairesRichestNetWorth_2024": 6.9
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "Billionaires_2024": 7,
+    "BillionairesRate_2024": 1.256,
+    "BillionairesRichestBillionaire_2024": "Antti Herlin",
+    "BillionairesRichestNetWorth_2024": 4
+  },
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 0.06,
+    "BillionairesRichestBillionaire_2024": "Pham Nhat Vuong",
+    "BillionairesRichestNetWorth_2024": 4.4
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 0.097,
+    "BillionairesRichestBillionaire_2024": "Johann Rupert & family",
+    "BillionairesRichestNetWorth_2024": 12.2
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 0.299,
+    "BillionairesRichestBillionaire_2024": "Vyacheslav Kim",
+    "BillionairesRichestNetWorth_2024": 5.8
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 0.301,
+    "BillionairesRichestBillionaire_2024": "Iris Fontbona & family",
+    "BillionairesRichestNetWorth_2024": 25.7
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 0.315,
+    "BillionairesRichestBillionaire_2024": "Daniel Dines",
+    "BillionairesRichestNetWorth_2024": 2.7
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "Billionaires_2024": 6,
+    "BillionairesRate_2024": 1.093,
+    "BillionairesRichestBillionaire_2024": "Najib Mikati",
+    "BillionairesRichestNetWorth_2024": 2.8
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "Billionaires_2024": 5,
+    "BillionairesRate_2024": 0.048,
+    "BillionairesRichestBillionaire_2024": "Nassef Sawiris",
+    "BillionairesRichestNetWorth_2024": 8.8
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "Billionaires_2024": 5,
+    "BillionairesRate_2024": 0.107,
+    "BillionairesRichestBillionaire_2024": "Marcos Galperin",
+    "BillionairesRichestNetWorth_2024": 6.3
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "Billionaires_2024": 5,
+    "BillionairesRate_2024": 0.136,
+    "BillionairesRichestBillionaire_2024": "Rinat Akhmetov",
+    "BillionairesRichestNetWorth_2024": 4
+  },
+  {
+    "flagCode": "HU",
+    "country": "Hungary",
+    "Billionaires_2024": 5,
+    "BillionairesRate_2024": 0.521,
+    "BillionairesRichestBillionaire_2024": "Lorinc Meszaros",
+    "BillionairesRichestNetWorth_2024": 1.7
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "Billionaires_2024": 4,
+    "BillionairesRate_2024": 0.018,
+    "BillionairesRichestBillionaire_2024": "Aliko Dangote",
+    "BillionairesRichestNetWorth_2024": 13.4
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "Billionaires_2024": 4,
+    "BillionairesRate_2024": 0.076,
+    "BillionairesRichestBillionaire_2024": "David Velez & family",
+    "BillionairesRichestNetWorth_2024": 10.8
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "Billionaires_2024": 4,
+    "BillionairesRate_2024": 0.431,
+    "BillionairesRichestBillionaire_2024": "Pavel Durov",
+    "BillionairesRichestNetWorth_2024": 15.5
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "Billionaires_2024": 4,
+    "BillionairesRate_2024": 0.754,
+    "BillionairesRichestBillionaire_2024": "Graeme Hart",
+    "BillionairesRichestNetWorth_2024": 10.4
+  },
+  {
+    "flagCode": "MC",
+    "country": "Monaco",
+    "Billionaires_2024": 3,
+    "BillionairesRate_2024": 76.825,
+    "BillionairesRichestBillionaire_2024": "Stefano Pessina",
+    "BillionairesRichestNetWorth_2024": 6.9
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.054,
+    "BillionairesRichestBillionaire_2024": "Aziz Akhannouch & family",
+    "BillionairesRichestNetWorth_2024": 1.7
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.31,
+    "BillionairesRichestBillionaire_2024": "Georgi Domuschiev",
+    "BillionairesRichestNetWorth_2024": 2.1
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.391,
+    "BillionairesRichestBillionaire_2024": "P.N.C. Menon",
+    "BillionairesRichestNetWorth_2024": 2.8
+  },
+  {
+    "flagCode": "SK",
+    "country": "Slovakia",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.369,
+    "BillionairesRichestBillionaire_2024": "Jaroslav Hascak & family",
+    "BillionairesRichestNetWorth_2024": 1.8
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.535,
+    "BillionairesRichestBillionaire_2024": "Mikhail Lomtadze",
+    "BillionairesRichestNetWorth_2024": 5.2
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "Billionaires_2024": 2,
+    "BillionairesRate_2024": 0.753,
+    "BillionairesRichestBillionaire_2024": "Hamad bin Jassim bin Jaber Al Thani",
+    "BillionairesRichestNetWorth_2024": 1.8
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.006,
+    "BillionairesRichestBillionaire_2024": "Muhammed Aziz Khan",
+    "BillionairesRichestNetWorth_2024": 1.1
+  },
+  {
+    "flagCode": "TZ",
+    "country": "Tanzania",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.016,
+    "BillionairesRichestBillionaire_2024": "Mohammed Dewji",
+    "BillionairesRichestNetWorth_2024": 1.8
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.022,
+    "BillionairesRichestBillionaire_2024": "Issad Rebrab & family",
+    "BillionairesRichestNetWorth_2024": 2.5
+  },
+  {
+    "flagCode": "NP",
+    "country": "Nepal",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.034,
+    "BillionairesRichestBillionaire_2024": "Binod Chaudhary",
+    "BillionairesRichestNetWorth_2024": 1.8
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.035,
+    "BillionairesRichestBillionaire_2024": "Juan Carlos Escotet",
+    "BillionairesRichestNetWorth_2024": 4.4
+  },
+  {
+    "flagCode": "ZW",
+    "country": "Zimbabwe",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.066,
+    "BillionairesRichestBillionaire_2024": "Strive Masiyiwa",
+    "BillionairesRichestNetWorth_2024": 1.8
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.096,
+    "BillionairesRichestBillionaire_2024": "Maria Fernanda Amorim & family",
+    "BillionairesRichestNetWorth_2024": 5.7
+  },
+  {
+    "flagCode": "PA",
+    "country": "Panama",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.246,
+    "BillionairesRichestBillionaire_2024": "Stanley Motta",
+    "BillionairesRichestNetWorth_2024": 1.1
+  },
+  {
+    "flagCode": "AM",
+    "country": "Armenia",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.335,
+    "BillionairesRichestBillionaire_2024": "Ruben Vardanyan & family",
+    "BillionairesRichestNetWorth_2024": 1.1
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 0.732,
+    "BillionairesRichestBillionaire_2024": "Kristo Käärmann",
+    "BillionairesRichestNetWorth_2024": 2.2
+  },
+  {
+    "flagCode": "BZ",
+    "country": "Belize",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 2.265,
+    "BillionairesRichestBillionaire_2024": "Kenneth Dart",
+    "BillionairesRichestNetWorth_2024": 4.7
+  },
+  {
+    "flagCode": "IS",
+    "country": "Iceland",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 2.519,
+    "BillionairesRichestBillionaire_2024": "Thor Bjorgolfsson",
+    "BillionairesRichestNetWorth_2024": 2.1
+  },
+  {
+    "flagCode": "BB",
+    "country": "Barbados",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 3.734,
+    "BillionairesRichestBillionaire_2024": "Rihanna",
+    "BillionairesRichestNetWorth_2024": 1.4
+  },
+  {
+    "flagCode": "GG",
+    "country": "Guernsey",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 15.602,
+    "BillionairesRichestBillionaire_2024": "Stephen Lansdown",
+    "BillionairesRichestNetWorth_2024": 2.6
+  },
+  {
+    "flagCode": "LI",
+    "country": "Liechtenstein",
+    "Billionaires_2024": 1,
+    "BillionairesRate_2024": 25.174,
+    "BillionairesRichestBillionaire_2024": "Christoph Zeller",
+    "BillionairesRichestNetWorth_2024": 1.5
+  },
+  {
+    "flagCode": null,
+    "country": "Total",
+    "Billionaires_2024": 2775,
+    "BillionairesRate_2024": null,
+    "BillionairesRichestBillionaire_2024": null,
+    "BillionairesRichestNetWorth_2024": null
+  }
+]
