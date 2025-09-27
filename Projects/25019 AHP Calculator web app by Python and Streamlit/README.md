@@ -1,14 +1,16 @@
 # Advanced AHP Calculator for Operations Research🌐📊
 ### Learn and calculate Analytic Hierarchy Process (AHP) interactively
 
-![AHP Calculator](path_to_your_app_image.png)
+![AHP Calculator](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20035156.png)
 
-![Date](https://img.shields.io/badge/Date-28/09/2025-blue)
+![Date](https://img.shields.io/badge/27/09/25-28/09/2025-blue)
 ![Location](https://img.shields.io/badge/Location-Rajshahi-green)
 ---
 
 ## 📝 Overview
-The **Step-by-Step AHP Calculator** is an interactive Python web application built using **Streamlit**.  
+Suppose you are selecting the best partner to get married. The factors might include: knowledge, character/personality/values, beauty, and religion. Then which partner will be the best fit for you? Here comes MCDM (Multi-Criteria Decision Making). And one of the most famous techniques of MCDA (Multi-Criteria Decision Analysis) is AHP (Analytic Hierarchy Process). 
+
+The **Advanced AHP Calculator** is an interactive Python web application built using **Streamlit**.  
 It allows users to **learn the Analytic Hierarchy Process** while performing real-time calculations for any multi-criteria decision-making problem.  
 
 This app is designed for **beginners and professionals alike**, explaining:  
@@ -23,8 +25,6 @@ The app also provides **visualizations, step-by-step explanations, and formulas*
 
 ## 🛠️ Tools & Technologies
 ![Python](https://img.shields.io/badge/Python-NumPy%2CPandas%2CStreamlit-blue)  
-![Data Science](https://img.shields.io/badge/Data%20Science-Python-lightgrey)  
-![Visualization](https://img.shields.io/badge/Visualization-Interactive%20Charts-green)  
 ![Web App](https://img.shields.io/badge/Web%20App-Streamlit-red)  
 
 ---
@@ -56,7 +56,12 @@ The app also provides **visualizations, step-by-step explanations, and formulas*
 5. See final global priorities and ranking  
 
 **Visualization:**  
-![Stepwise AHP Example](path_to_example_image.png)  
+![Stepwise AHP Example](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20035156.png)  
+![Stepwise AHP Example](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20035207.png)  
+![Stepwise AHP Example](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20035219.png)  
+![Stepwise AHP Example](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20041341.png)  
+![Stepwise AHP Example](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25019%20AHP%20Calculator%20web%20app%20by%20Python%20and%20Streamlit/Screenshot%202025-09-28%20041401.png)  
+ 
 
 ---
 
@@ -73,7 +78,6 @@ The app also provides **visualizations, step-by-step explanations, and formulas*
 
 ## 📌 Credit
 Developed by **Imtiaj Iqbal Mahfuj**  
-Undergraduate Student, Department of Urban & Regional Planning, RUET  
 📧 [imtiajiqbal.ruet@gmail.com](mailto:imtiajiqbal.ruet@gmail.com)  
 🌐 [imtiajiqbalmahfuj.github.io](https://imtiajiqbalmahfuj.github.io/)  
 
