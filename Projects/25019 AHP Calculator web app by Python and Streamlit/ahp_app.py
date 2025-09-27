@@ -6,7 +6,9 @@ import pandas as pd
 st.title("Step-by-Step Educational AHP Calculator")
 st.markdown("""
 This app explains **Analytic Hierarchy Process (AHP)** step by step.
-It allows anyone to calculate AHP **while learning how the calculations are done**.
+It allows anyone to calculate AHP **while learning how the calculations are done** developed by **Imtiaj Iqbal Mahfuj**.
+
+In the theory of decision making, the analytic hierarchy process (AHP), also analytical hierarchy process, is a structured technique for organizing and analyzing complex decisions, based on mathematics and psychology. It was developed by Thomas L. Saaty in the 1970s; Saaty partnered with Ernest Forman to develop Expert Choice software in 1983, and AHP has been extensively studied and refined since then. It represents an accurate approach to quantifying the weights of decision criteria. Individual experts’ experiences are utilized to estimate the relative magnitudes of factors through pair-wise comparisons. Each of the respondents compares the relative importance of each pair of items using a specially designed questionnaire. The relative importance of the criteria can be determined with the help of the AHP by comparing the criteria and, if applicable, the sub-criteria in pairs by experts or decision-makers. On this basis, the best alternative can be found.
 
 **References:**  
 - [Saaty, T.L., 1980. The Analytic Hierarchy Process](https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.3800010203)  
