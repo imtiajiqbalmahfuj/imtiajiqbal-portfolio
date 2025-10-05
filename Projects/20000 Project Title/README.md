@@ -6,7 +6,7 @@
 ![Project Preview]()  
 
 ![Date](https://img.shields.io/badge/01/10/2025-01/10/2025-blue) 
-![Location](https://img.shields.io/badge/Location-Rajshahi-green) 
+![Location](https://img.shields.io/badge/Location-Rajshahi-purple) 
 ---
 > **Author:** Imtiaj Iqbal Mahfuj
 ---
@@ -424,6 +424,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
