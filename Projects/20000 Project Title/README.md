@@ -1,3 +1,97 @@
+CSS Injection on the first cell (markdown) of all jupyter notebook
+``` CSS
+<style>
+/* --- 0. CONTAINER FIX: Ensure the entire notebook is responsive --- */
+body {
+    overflow-x: hidden !important; /* Prevent page-level horizontal scroll */
+}
+div#notebook-container, .container {
+    width: 100% !important; 
+    max-width: 100% !important;
+    min-width: 0 !important;
+}
+
+/* --- 1. HIDE PROMPTS --- */
+.prompt, 
+.input_prompt, 
+.output_prompt, 
+.jp-InputPrompt { 
+    display: none !important; 
+}
+
+/* --- 2. DESKTOP/TABLET: ENFORCE HORIZONTAL SCROLL (Default for > 480px) --- */
+/* Targets all code/text areas */
+div.input_area pre,
+.jp-InputArea-editor pre,
+.code_cell pre,
+.output_area pre,
+div.text_cell pre {
+    /* DEFAULT: Forces horizontal scroll (Laptop/Tablet) */
+    white-space: pre !important; 
+    overflow-x: auto !important; 
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-bottom: 10px;
+}
+.jp-CodeCell {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden !important; 
+}
+
+/* --- 3. MOBILE OVERRIDE: FORCE WRAP/SCROLL (CSS Media Query) --- */
+/* Apply these rules ONLY when the screen width is 480px or less (phone size) */
+@media screen and (max-width: 480px) {
+    /* Code/Text Output: Force Wrapping */
+    div.input_area pre,
+    .jp-InputArea-editor pre,
+    .code_cell pre,
+    div.text_cell pre {
+        white-space: pre-wrap !important; 
+        word-wrap: break-word !important;
+        overflow-x: hidden !important; /* Hide scroll on the wrapped container */
+    }
+    
+    /* UNIVERSAL AGGRESSIVE FIX: HTML Tables and Rich Outputs - Force Scroll */
+    .output_subarea, 
+    .output_wrapper,
+    .output_html,
+    .output_area table, 
+    .output_area table * { 
+        /* Force horizontal scroll on the outer container */
+        overflow-x: auto !important;
+        
+        /* Ensure the content itself can stretch */
+        width: auto !important;
+        min-width: 100% !important;
+    }
+    
+    /* Critical Fix for Tables */
+    .output_area table {
+        display: block !important; /* Allows table to be treated as a block for proper overflow */
+        min-width: 100%;
+    }
+
+    /* Ensure table cells don't wrap their content */
+    .output_area table td, .output_area table th {
+        white-space: nowrap !important;
+    }
+}
+
+/* --- 4. STYLE MARKDOWN CODE BLOCKS (Visuals) --- */
+div.text_cell pre code, 
+div.text_cell pre {
+    background-color: var(--jp-layout-color1, #f7f7f7) !important; 
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 1px solid var(--jp-border-color2, #ccc) !important;
+    max-width: 100%;
+}
+</style>
+```
+
+Readme Template
 ``` text
 # Project Title Here
 ### Subtitle / One-liner about the project  
@@ -424,6 +518,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
