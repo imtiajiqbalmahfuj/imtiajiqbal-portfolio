@@ -1,4 +1,4 @@
-# Project: Visualizing the World's Forests with Python
+# Visualizing the World's Forests with Python
 
 ![World Forests Visualization](https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/refs/heads/main/Projects/25017%20Global%20forest%20map/Global%20forest%20map.png)
 
