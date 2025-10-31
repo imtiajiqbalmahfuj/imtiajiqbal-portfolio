@@ -4,12 +4,12 @@
 CSS Injection on the first cell (markdown) of all jupyter notebook
 ``` CSS
 <style>
-/* --- 0. CONTAINER FIX: Ensure the entire notebook is responsive --- */
+/* --- 0. CONTAINER FIX --- */
 body {
-    overflow-x: hidden !important; /* Prevent page-level horizontal scroll */
+    overflow-x: hidden !important;
 }
 div#notebook-container, .container {
-    width: 100% !important; 
+    width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
 }
@@ -18,92 +18,82 @@ div#notebook-container, .container {
 .prompt, 
 .input_prompt, 
 .output_prompt, 
-.jp-InputPrompt { 
-    display: none !important; 
+.jp-InputPrompt {
+    display: none !important;
 }
 
-/* --- 2. DESKTOP/TABLET: ENFORCE HORIZONTAL SCROLL (Default for > 480px) --- */
-/* Targets all code/text areas */
-div.input_area pre,
-.jp-InputArea-editor pre,
-.code_cell pre,
-.output_area pre,
-div.text_cell pre {
-    white-space: pre !important; 
-    overflow-x: auto !important; 
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-bottom: 10px;
-}
-
-/* Force light background for code input/output (fix dark issue) */
-div.input_area pre,
-.jp-InputArea-editor pre,
-.code_cell pre,
-.output_area pre {
-    background-color: #f7f7f7 !important; 
-    color: #000000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #ddd !important;
-}
-
-/* Keep overall code cell container consistent */
-.jp-CodeCell {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    overflow: hidden !important; 
-    background-color: #ffffff !important;
-}
-
-/* Soften input area corners */
-.jp-InputArea-editor, 
-div.input_area {
-    border-radius: 8px !important;
-    background-color: #ffffff !important;
-    border: 1px solid #ddd !important;
-    overflow: hidden !important;
-}
-
-/* Fix black background for message/output boxes */
-.jp-OutputArea-output, 
-.output_subarea, 
+/* --- 2. FLAT INPUT/OUTPUT --- */
+.jp-CodeCell,
+.jp-InputArea-editor,
+div.input_area,
+.jp-OutputArea-output,
+.output_subarea,
 .output_wrapper,
-.output_area pre,
-.jp-RenderedText, 
+.jp-RenderedText,
 .jp-RenderedHTMLCommon pre {
-    background-color: #ffffff !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
     color: #000000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #e0e0e0 !important;
 }
 
-/* Error/warning box visual */
-.jp-OutputArea-output-error,
+/* --- 2a. Code inside code cells --- */
+div.input_area pre,
+.jp-InputArea-editor pre,
+.code_cell pre {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+    padding-left: 10px !important;  /* input offset */
+}
+
+/* --- 2b. Markdown code blocks --- */
+div.text_cell pre code, 
+div.text_cell pre {
+    background-color: #f7f7f7 !important;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc !important;
+    max-width: 100%;
+    color: #000000 !important;
+}
+
+/* --- 2c. Warnings / stderr / FutureWarnings --- */
+.jp-OutputArea-output[data-mime-type="application/vnd.jupyter.stderr"],
+.output_stderr,
+.output_error,
+.output_stderr pre,
 .output_error pre,
-.output_stderr pre {
-    background-color: #fff6f6 !important;
-    color: #b00000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #f0c0c0 !important;
+.output_stderr span,
+.output_error span,
+.jp-RenderedText[data-mime-type="application/vnd.jupyter.stderr"] * {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-style: normal !important;
 }
 
-/* --- 3. MOBILE OVERRIDE: FORCE WRAP/SCROLL (CSS Media Query) --- */
+/* --- 3. MOBILE OVERRIDE --- */
 @media screen and (max-width: 480px) {
     div.input_area pre,
     .jp-InputArea-editor pre,
     .code_cell pre,
     div.text_cell pre {
-        white-space: pre-wrap !important; 
+        white-space: pre-wrap !important;
         word-wrap: break-word !important;
         overflow-x: hidden !important;
+        padding-left: 10px !important;
     }
 
-    .output_subarea, 
+    .output_subarea,
     .output_wrapper,
     .output_html,
-    .output_area table, 
-    .output_area table * { 
+    .output_area table,
+    .output_area table * {
         overflow-x: auto !important;
         width: auto !important;
         min-width: 100% !important;
@@ -119,27 +109,34 @@ div.input_area {
     }
 }
 
-/* --- 4. STYLE MARKDOWN CODE BLOCKS (Visuals) --- */
-div.text_cell pre code, 
-div.text_cell pre {
-    background-color: var(--jp-layout-color1, #f7f7f7) !important; 
-    padding: 10px; 
-    border-radius: 4px; 
-    border: 1px solid var(--jp-border-color2, #ccc) !important;
-    max-width: 100%;
-    color: #000000 !important;
+/* --- 4. SCROLLBAR STYLING --- */
+/* For modern browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
 
-/* --- 5. FINAL FIX: Handle dark stderr/warning boxes (like FutureWarning) --- */
-.output_stderr,
-.jp-RenderedText[data-mime-type="application/vnd.jupyter.stderr"],
-.jp-OutputArea-output[data-mime-type="application/vnd.jupyter.stderr"] {
-    background-color: #fff6f6 !important; /* light red for visibility */
-    color: #b00000 !important;
-    border: 1px solid #f0c0c0 !important;
-    border-radius: 6px !important;
+::-webkit-scrollbar-track {
+    background: #f0f0f0;  /* light track */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;  /* slightly darker thumb */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;  /* darker on hover */
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c0c0c0 #f0f0f0;  /* thumb, track */
 }
 </style>
+
 ```
 
 Readme Template
@@ -569,154 +566,4 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
-CSS
-```css
-<style>
-/* --- 0. CONTAINER FIX: Ensure the entire notebook is responsive --- */
-body {
-    overflow-x: hidden !important; /* Prevent page-level horizontal scroll */
-}
-div#notebook-container, .container {
-    width: 100% !important; 
-    max-width: 100% !important;
-    min-width: 0 !important;
-}
-
-/* --- 1. HIDE PROMPTS --- */
-.prompt, 
-.input_prompt, 
-.output_prompt, 
-.jp-InputPrompt { 
-    display: none !important; 
-}
-
-/* --- 2. DESKTOP/TABLET: ENFORCE HORIZONTAL SCROLL (Default for > 480px) --- */
-/* Targets all code/text areas */
-div.input_area pre,
-.jp-InputArea-editor pre,
-.code_cell pre,
-.output_area pre,
-div.text_cell pre {
-    white-space: pre !important; 
-    overflow-x: auto !important; 
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-bottom: 10px;
-}
-
-/* Force light background for code input/output (fix dark issue) */
-div.input_area pre,
-.jp-InputArea-editor pre,
-.code_cell pre,
-.output_area pre {
-    background-color: #f7f7f7 !important; 
-    color: #000000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #ddd !important;
-}
-
-/* Keep overall code cell container consistent */
-.jp-CodeCell {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    overflow: hidden !important; 
-    background-color: #ffffff !important;
-}
-
-/* Soften input area corners */
-.jp-InputArea-editor, 
-div.input_area {
-    border-radius: 8px !important;
-    background-color: #ffffff !important;
-    border: 1px solid #ddd !important;
-    overflow: hidden !important;
-}
-
-/* Fix black background for message/output boxes */
-.jp-OutputArea-output, 
-.output_subarea, 
-.output_wrapper,
-.output_area pre,
-.jp-RenderedText, 
-.jp-RenderedHTMLCommon pre {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #e0e0e0 !important;
-}
-
-/* Error/warning box visual */
-.jp-OutputArea-output-error,
-.output_error pre,
-.output_stderr pre {
-    background-color: #fff6f6 !important;
-    color: #b00000 !important;
-    border-radius: 6px !important;
-    border: 1px solid #f0c0c0 !important;
-}
-
-/* --- 3. MOBILE OVERRIDE: FORCE WRAP/SCROLL (CSS Media Query) --- */
-@media screen and (max-width: 480px) {
-    div.input_area pre,
-    .jp-InputArea-editor pre,
-    .code_cell pre,
-    div.text_cell pre {
-        white-space: pre-wrap !important; 
-        word-wrap: break-word !important;
-        overflow-x: hidden !important;
-    }
-
-    .output_subarea, 
-    .output_wrapper,
-    .output_html,
-    .output_area table, 
-    .output_area table * { 
-        overflow-x: auto !important;
-        width: auto !important;
-        min-width: 100% !important;
-    }
-
-    .output_area table {
-        display: block !important;
-        min-width: 100%;
-    }
-
-    .output_area table td, .output_area table th {
-        white-space: nowrap !important;
-    }
-}
-
-/* --- 4. STYLE MARKDOWN CODE BLOCKS (Visuals) --- */
-div.text_cell pre code, 
-div.text_cell pre {
-    background-color: var(--jp-layout-color1, #f7f7f7) !important; 
-    padding: 10px; 
-    border-radius: 4px; 
-    border: 1px solid var(--jp-border-color2, #ccc) !important;
-    max-width: 100%;
-    color: #000000 !important;
-}
-
-/* --- 5. FINAL FIX: Handle dark stderr/warning boxes (like FutureWarning) --- */
-.output_stderr,
-.jp-RenderedText[data-mime-type="application/vnd.jupyter.stderr"],
-.jp-OutputArea-output[data-mime-type="application/vnd.jupyter.stderr"] {
-    background-color: #fff6f6 !important; /* light red for visibility */
-    color: #b00000 !important;
-    border: 1px solid #f0c0c0 !important;
-    border-radius: 6px !important;
-}
-</style>
-```
-
-
-
-
-
-
-
-
-
-
 
