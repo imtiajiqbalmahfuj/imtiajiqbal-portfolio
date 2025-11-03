@@ -135,7 +135,19 @@ div.text_cell pre {
     scrollbar-width: thin;
     scrollbar-color: #c0c0c0 #f0f0f0;  /* thumb, track */
 }
+
+/* --- 5. Neutralize plain text outputs (like <xarray.plot.facetgrid.FacetGrid ...>) --- */
+.output_subarea pre,
+.jp-RenderedText pre,
+.output_text pre {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 </style>
+
 
 ```
 
@@ -566,4 +578,5 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
