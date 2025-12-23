@@ -8,21 +8,24 @@ CSS Injection on the first cell (markdown) of all jupyter notebook
 body {
     overflow-x: hidden !important;
 }
-div#notebook-container, .container {
+div#notebook-container, .container, .jp-Notebook {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
+    background-color: #ffffff !important;
 }
 
 /* --- 1. HIDE PROMPTS --- */
 .prompt, 
 .input_prompt, 
 .output_prompt, 
-.jp-InputPrompt {
+.jp-InputPrompt,
+.jp-OutputPrompt {
     display: none !important;
 }
 
-/* --- 2. FLAT INPUT/OUTPUT --- */
+/* --- 2. FLAT INPUT/OUTPUT & BACKGROUND FIX --- */
+/* This section targets the 'ash' background in printed outputs */
 .jp-CodeCell,
 .jp-InputArea-editor,
 div.input_area,
@@ -30,12 +33,18 @@ div.input_area,
 .output_subarea,
 .output_wrapper,
 .jp-RenderedText,
-.jp-RenderedHTMLCommon pre {
+.jp-RenderedHTMLCommon pre,
+.output_area pre, 
+.output_text pre,
+.jp-OutputArea-output pre,
+.jp-RenderedText pre,
+pre {
     background-color: transparent !important;
     border: none !important;
     border-radius: 0 !important;
     margin: 0 !important;
     color: #000000 !important;
+    box-shadow: none !important;
 }
 
 /* --- 2a. Code inside code cells --- */
@@ -45,7 +54,7 @@ div.input_area pre,
     background-color: transparent !important;
     border: none !important;
     color: #000000 !important;
-    padding-left: 10px !important;  /* input offset */
+    padding-left: 10px !important;
 }
 
 /* --- 2b. Markdown code blocks --- */
@@ -75,6 +84,12 @@ div.text_cell pre {
     padding: 0 !important;
     margin: 0 !important;
     font-style: normal !important;
+}
+
+/* --- 2d. Xarray/Pandas Rich HTML Table Fix --- */
+.xr-wrap, .xr-header, .xr-array-items, .xr-section-item, .xr-details {
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 /* --- 3. MOBILE OVERRIDE --- */
@@ -110,42 +125,29 @@ div.text_cell pre {
 }
 
 /* --- 4. SCROLLBAR STYLING --- */
-/* For modern browsers (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f0f0f0;  /* light track */
+    background: #f0f0f0;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c0c0c0;  /* slightly darker thumb */
+    background: #c0c0c0;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #a0a0a0;  /* darker on hover */
+    background: #a0a0a0;
 }
 
-/* Firefox scrollbar */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #c0c0c0 #f0f0f0;  /* thumb, track */
+    scrollbar-color: #c0c0c0 #f0f0f0;
 }
-
-/* --- 5. Neutralize plain text outputs (like <xarray.plot.facetgrid.FacetGrid ...>) --- */
-.output_subarea pre,
-.jp-RenderedText pre,
-.output_text pre {
-    background-color: transparent !important;
-    color: #000000 !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
 </style>
 
 
@@ -578,5 +580,6 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
