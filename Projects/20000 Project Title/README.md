@@ -153,7 +153,7 @@ div.text_cell pre {
 
 ```
 
-Readme Template
+# Readme Template
 ``` text
 # Project Title Here
 ### Subtitle / One-liner about the project  
@@ -252,8 +252,36 @@ If you use or refer to this work, please cite as:
 
 ```
 
+# Embed any file/pdf.video
+```text
+from IPython.display import IFrame
 
-pdf2image
+# ### Drive
+
+# 1. Paste your Google Drive File ID here
+drive_id = "1eiopXmEY3-SJmPg2EFNRGite97wd4Rgm"
+
+# 2. This creates the embeddable link
+url = f"https://drive.google.com/file/d/{drive_id}/preview"
+
+# 3. Display the file
+IFrame(src=url, width="100%", height=600)
+
+# ### Github
+
+# # 1. Paste your standard GitHub URL here
+# github_url = "https://github.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/blob/main/Projects/26002%20Revitalizing%20Riverbank%20Systems/file.pdf"
+
+# # 2. Format the link to bypass GitHub security and use the Viewer
+# raw_link = github_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+# embed_url = f"https://docs.google.com/gview?url={raw_link}&embedded=true"
+
+# # 3. Display the file
+# IFrame(src=embed_url, width="100%", height=800)
+```
+
+
+### pdf2image
 ```text
 import requests
 from pdf2image import convert_from_bytes
@@ -608,6 +636,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
