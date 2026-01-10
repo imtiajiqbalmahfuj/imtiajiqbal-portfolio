@@ -153,34 +153,6 @@ div.text_cell pre {
 
 ```
 
-pdf2image
-```text
-import requests
-from pdf2image import convert_from_bytes
-from IPython.display import display, Image
-import io
-
-# 1. Get the Raw URL from GitHub
-pdf_url = "https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/9d8f6ea81d4f957eab2e8f54d5b0584b051babeb/Blogs/26001_a_review_of_trends_and_patterns_of_vehicle_registration_and_vehicle_ownership.pdf"
-
-# 2. Download the PDF into memory
-response = requests.get(pdf_url)
-pdf_content = response.content
-
-# 3. Convert PDF pages to images
-# (You can adjust 'dpi' to change quality/size)
-pages = convert_from_bytes(pdf_content, dpi=150)
-
-# 4. Loop through and display each page
-print(f"Total Pages: {len(pages)}")
-for i, page in enumerate(pages):
-    # Save page to a byte buffer to display it
-    img_byte_arr = io.BytesIO()
-    page.save(img_byte_arr, format='PNG')
-    
-    print(f"--- Page {i+1} ---")
-    display(Image(data=img_byte_arr.getvalue()))
-```
 Readme Template
 ``` text
 # Project Title Here
@@ -281,6 +253,34 @@ If you use or refer to this work, please cite as:
 ```
 
 
+pdf2image
+```text
+import requests
+from pdf2image import convert_from_bytes
+from IPython.display import display, Image
+import io
+
+# 1. Get the Raw URL from GitHub
+pdf_url = "https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbal-portfolio/9d8f6ea81d4f957eab2e8f54d5b0584b051babeb/Blogs/26001_a_review_of_trends_and_patterns_of_vehicle_registration_and_vehicle_ownership.pdf"
+
+# 2. Download the PDF into memory
+response = requests.get(pdf_url)
+pdf_content = response.content
+
+# 3. Convert PDF pages to images
+# (You can adjust 'dpi' to change quality/size)
+pages = convert_from_bytes(pdf_content, dpi=150)
+
+# 4. Loop through and display each page
+print(f"Total Pages: {len(pages)}")
+for i, page in enumerate(pages):
+    # Save page to a byte buffer to display it
+    img_byte_arr = io.BytesIO()
+    page.save(img_byte_arr, format='PNG')
+    
+    print(f"--- Page {i+1} ---")
+    display(Image(data=img_byte_arr.getvalue()))
+```
 
 # Project Title Here
 ### Subtitle / One-liner about the project  
@@ -608,6 +608,7 @@ A short description (3–4 lines) about what the project does, why it’s import
   year={2024}
 }
 ```
+
 
 
 
