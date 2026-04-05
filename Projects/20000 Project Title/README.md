@@ -150,6 +150,18 @@ div.text_cell pre {
 }
 </style>
 
+<script>
+  (function() {
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/svg+xml';
+    link.rel = 'shortcut icon';
+    
+    // Using the direct raw link to your GitHub asset
+    link.href = 'https://raw.githubusercontent.com/imtiajiqbalmahfuj/imtiajiqbalmahfuj.github.io/main/Assets/favicon.svg'; 
+    
+    document.getElementsByTagName('head')[0].appendChild(link);
+  })();
+</script>
 
 ```
 
